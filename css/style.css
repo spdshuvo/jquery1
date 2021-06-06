@@ -4,8 +4,26 @@
     outline: 0;
     box-sizing: border-box;
 }
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.fade{
+    width: 200px;
+    height:200px;
+    background: blue;
+    margin: 20px;
+}
+
+.fade:nth-child(even){
+    width: 200px;
+    height:200px;
+    background: red;
+    margin: 20px;
+}
 #fade{
     width: 200px;
     height:200px;
     background: blue;
+    margin: 20px;
 }

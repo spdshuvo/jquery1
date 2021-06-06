@@ -15,4 +15,13 @@ $(function(){
     $("#fadeout").click(function(){
         $('#fade').fadeOut(2000)
     })
+    $("#fadetoggle").click(function(){
+        $('#fade').fadeToggle(2000)
+    })
+    $("#fadeto").click(function(){
+        $('#fade').fadeTo(2000,0.5)
+    })
+    $(".fadetoggle").click(function(){
+        $('.fade').fadeToggle(5000)
+    })
 })
